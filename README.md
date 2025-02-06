@@ -1,11 +1,4 @@
-# FastAnnotation
-
-## Running
-
-```
-cd docker
-docker-compose up --build
-```
+# Projeto-IV
 
 ## Relationship
 
