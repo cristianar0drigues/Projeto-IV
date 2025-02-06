@@ -1,0 +1,35 @@
+.info_projetos {
+    position: relative;
+    display: flex;
+    width: 65vw;
+    height: 10vh;
+    padding: 0 3vw 0 3vw;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #EBE0FF;
+    border-radius: 8px;
+}
+
+.proj_title, .proj_desc, .proj_op {
+
+    position: relative;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+
+    color: #785EAD;
+}
+
+.proj_op span {
+    cursor: pointer;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}

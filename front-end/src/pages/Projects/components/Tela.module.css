@@ -1,0 +1,98 @@
+.tela {
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32vw;
+    height: 60vh;
+
+    background-color: #F5F2FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fechar {
+    position: absolute;
+    display: block;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    width: 100%;
+    height: 20%;
+}
+
+.fechar svg{
+    position: relative;
+    left: 100%;
+    cursor:pointer;
+}
+
+.tela form {
+    position: relative;
+    margin: 2rem 0 0 0;
+    display: block;
+    margin: auto;
+    padding-top: 5rem;
+    width: 70%;
+    height: 100%;
+}
+
+.tela form input {
+    margin: 1rem 0 1rem 0;
+}
+
+.retangulo {
+    position: absolute;
+    width:100%;
+    height: 12px;
+
+    background: #785EAD;
+}
+
+.titulo_2 {
+    position: relative;
+    width: 132px;
+    height: 28px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+
+    color: #453070;
+}
+
+.text_proj {
+    position: relative;
+    width: 100%;
+    min-height: 2.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+
+    background-color: #ffffff00;
+}
+
+
+.sub_button {
+    position: relative;
+    width: 100%;
+    min-height: 2.5rem;
+
+    background: #785EAD;
+    border-radius: 6px;
+    border: none;
+
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.desabilitado {
+    display: none;
+}

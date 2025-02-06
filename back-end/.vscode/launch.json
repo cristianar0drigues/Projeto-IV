@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FastannotationApplication<fastannotation>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.ufc.fastannotation.FastannotationApplication",
+            "projectName": "fastannotation",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

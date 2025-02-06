@@ -1,0 +1,97 @@
+.container {
+    position: absolute;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 32vw;
+    height: 80vh;
+    
+    background-color: #F5F2FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.desabilitado {
+    display: none;
+}
+
+.fechar {
+    position: absolute;
+    display: block;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    width: 100%;
+    height: 20%;
+
+}
+
+.fechar svg {
+    position: relative;
+    left: 100%;
+    cursor:pointer;
+}
+
+.container form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    width: 70%;
+    height: 100%;
+}
+
+.container form input {
+    margin-top: 1.8rem;
+}
+
+.container form div {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #785EAD;
+}
+
+.container form div a{
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.retangulo {
+    position: absolute;
+    width:100%;
+    height: 12px;
+
+    background: #785EAD;
+}
+
+.campo_texto {
+    position: relative;
+    width: 100%;
+    min-height: 2.5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+
+    background-color: #ffffff00;
+}
+
+.sub_button {
+    position: relative;
+    width: 100%;
+    min-height: 2.5rem;
+
+    background: #785EAD;
+    border-radius: 6px;
+    border: none;
+
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

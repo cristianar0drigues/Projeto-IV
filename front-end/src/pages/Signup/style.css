@@ -1,0 +1,87 @@
+.form-title {
+    font-size: 21px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.wrap-input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* 🔥 Correção no botão REGISTER 🔥 */
+.button-form {
+    width: 100%;  /* Ocupa toda a largura do formulário */
+    background-color: #785EAD;
+    border-radius: 4px;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+    margin-top: 20px;  /* Espaço acima do botão */
+    box-sizing: border-box; /* Garante que a largura seja respeitada */
+    text-transform: uppercase;  /* Deixa o texto do botão em maiúsculas */
+}
+
+/* Efeito de hover */
+.button-form:hover {
+    background-color: #5b39a0;
+    transform: scale(1.05);
+}
+
+/* Efeito de clique */
+.button-form:active {
+    background-color: #4b2792;
+}
+
+/* Ajuste para a lista de erros */
+.errors-list {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Ajustes do link de login */
+.span {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link {
+    color: #4b2792;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #7b57c2;
+}

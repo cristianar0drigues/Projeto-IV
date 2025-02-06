@@ -1,0 +1,13 @@
+.container_projeto {
+    position: relative;
+    width: 75vw;
+    height: 100vh;
+    padding: 5vh 5vw 5vh 5vw;
+    overflow-y: auto;
+
+    background: #fff;
+}
+
+.habilitado {
+    display: flex;
+}

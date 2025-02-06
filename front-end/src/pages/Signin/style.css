@@ -1,0 +1,101 @@
+
+.form-title{
+    display: block;
+    font-size: 30px;
+    color: black;
+    line-height: 1.2;
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    font-size: 21px;
+}
+
+.form{
+    width: 100%;
+}
+
+.input{
+    font-size: 15px;
+    padding: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border-width: 1.0px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+.button-form-login{
+    background-color: #785EAD;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #ffff;
+    transition: 0.5s;
+}
+
+.button-form-login:hover{
+    background-color: #5b39a0;
+    cursor: pointer;
+    color: #2a2338;
+}
+
+.button-form{
+    background-color: #785EAD;
+    border-radius: 4px;
+    border: none;
+    width: 95%;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #ffff;
+    transition: 0.5s;
+}
+
+.button-form:hover{
+    background-color: #5b39a0;
+    cursor: pointer;
+    color: #2a2338;
+}
+
+.link-password{
+    color: #4b2792;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.link-password:hover{
+    color: #785EAD;
+}
+
+.span{
+    font-size: 14px;
+    display: block;
+    font-family: 'Inter', sans-serif;
+}
+
+.link{
+    color: #4b2792;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.link:hover{
+    color: #7b57c2;
+}
+
+.errors-list {
+    padding: 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #ff0000;
+    margin-bottom: 2px;
+}
